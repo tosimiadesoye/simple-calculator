@@ -1,0 +1,13 @@
+import React from 'react';
+import './clear-input.css'
+
+export class ClearBtn extends React.Component{
+    render() {
+        return(
+            <div className='clear-btn' 
+               onClick={() => this.props.handleClear()}
+               >
+                  {this.props.children}</div>
+        )
+    }
+}
