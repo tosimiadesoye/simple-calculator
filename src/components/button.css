@@ -1,0 +1,18 @@
+.button{
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 60px;
+   border-radius: 15px;
+   justify-content: center;
+   text-align: center;
+   margin-top: 1px;
+}
+
+
+.operator{
+    background-color: orange;
+}
